@@ -64,7 +64,7 @@ void cMain::OnButtonClicked(wxCommandEvent& evt)
 
 	if (nField[y * nFieldWidth + x] == -1)
 	{
-		wxMessageBox("Waaam !! - Game Over :(");
+		wxMessageBox("KABLOOOM!!! - Game Over");
 
 		bFirstClick = true;
 		for (int i = 0; i < nFieldWidth; i++)
